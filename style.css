@@ -1,0 +1,148 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #f5f7fa;
+}
+.wrapper {
+    display: flex; /* Domyślnie sprawia że wszystkie elementy będą obok siebie */
+    flex-direction: row-reverse; /* Odwraca kolejność elementów */
+    width: 1200px;
+    justify-content: center;
+    margin: 0 auto; /* ?Nie rozumiem dlaczego było potrzebne dodanie marginesu 0?*/
+    background: #fff;
+    box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.1); /* Nadaje cień naszej struktórze */
+}
+main {
+    padding: 102px 88px 102px 88px;
+}
+
+.maindes {
+    width: 423px;
+}
+
+.front {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.imie {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.opis {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.projekt {
+    width: 485px;
+    margin-bottom: 51px;
+}
+
+.listab {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.listac {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.podnad {
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.data {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.opisabc {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.manage {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+aside {
+    /* Kiedy mamy już tag w kodzie html, to w css wpisujemy go bez kropki, gdy dodajemy class, to poprzedzamy to kropką jak powyżej .wrapper */
+    background: #1e2939;
+    color: #fff;
+    width: 370px;
+}
+.profilowe {
+    /* można też robić wybrane marginesy np: */
+    margin-top: 25px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    /* Można to też stosować przy padding */
+}
+
+.kontakt {
+    margin-left: 40px;
+    margin-top: 51px;
+    color: #fff;
+}
+.kontaktt {
+    margin: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.umiejetnosci {
+    margin-left: 40px; /* Zawsze kolejność: (Od góry; Od prawej; Od dołu; Od lewej) podając jednoą wartość, margines ustawia się na każdą stronę*/
+    margin-top: 47px;
+    padding: 0;
+}
+
+.skill {
+    margin-left: 40px;
+    margin-top: 44px;
+    padding: ;
+}
+
+.orange {
+    color: #fb6d3a;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position: inside; /* Jeśli chcemy aby tekst był na środku? Nie rozumiem całkowicie jakiego środka */
+}
+
+.white {
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+}
